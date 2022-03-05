@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BasketBall/BasketBall.iml" filepath="$PROJECT_DIR$/BasketBall/BasketBall.iml" />
       <module fileurl="file://$PROJECT_DIR$/Film/Film.iml" filepath="$PROJECT_DIR$/Film/Film.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyTrivial/MyTrivial.iml" filepath="$PROJECT_DIR$/MyTrivial/MyTrivial.iml" />
       <module fileurl="file://$PROJECT_DIR$/TecnoCampus_Java_Backend_1.iml" filepath="$PROJECT_DIR$/TecnoCampus_Java_Backend_1.iml" />
     </modules>
   </component>
