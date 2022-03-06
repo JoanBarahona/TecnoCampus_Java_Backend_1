@@ -26,5 +26,12 @@ public class Rockets {
         }
         return currentPower;
     }
+    public static String toString (List<Integer> list) {
+        String formattedToString = list.toString()
+                .replace("(", "")
+                .replace(")", "")
+                .replace(" ", "");
+        return formattedToString;
+    }
 
 }
