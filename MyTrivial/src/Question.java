@@ -1,7 +1,8 @@
-public class Questions {
+public class Question {
     private String theme;
     private String statement;
     private boolean rightAnswer;
+    private boolean userAnswer;
     private int punctuation;
 
     public Question(String theme, String statement, boolean rightAnswer, int punctuation) {
