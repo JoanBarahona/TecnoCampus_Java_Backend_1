@@ -33,5 +33,13 @@ public class Rockets {
                 .replace(" ", "");
         return formattedToString;
     }
+    public static float speed (List<Integer> actualPower,List<Propulsors> propulsorsRangePower, float actualSpeed){
+        Integer propulsorPower = 0;
+        for (int i=0;i<propulsorsRangePower.size();i++){
+            propulsorPower = propulsorPower + actualPower.get(i);
+        }
+        float speed = (float) (actualSpeed + (100*(Math.sqrt(propulsorPower))));
+        return speed;
+    }
 
 }
