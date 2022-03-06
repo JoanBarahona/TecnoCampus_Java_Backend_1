@@ -16,5 +16,13 @@ public class Main {
 
     }
 
+    private static void showTheResults(List<Question> questions, int counterRightAnswer, int score) {
+
+        System.out.println(" The total number of correct answers is: " + counterRightAnswers + ". Total number of questions:" + questions.size() + " . ");
+        System.out.println(" Your final score is: " + score + " . ");
+    }
+
+
+
 
 }
